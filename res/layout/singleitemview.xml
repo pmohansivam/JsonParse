@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+    <ScrollView   android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      ><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+          <com.androidbegin.jsonparsetutorial.Coustxt
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+         android:layout_marginRight="15dp" android:layout_marginLeft="15dp"
+        android:text="counter"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+          
+          
+        <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="counter rank"
+        android:layout_gravity="left" 
+        android:layout_margin="15dp" 
+        android:textStyle="italic"
+        android:textColor="#9e9e9e"/>
+          
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:padding="1dp"
+        android:src="@drawable/ic_launcher" 
+        android:layout_gravity="center"/>
+
+ 
+
+  
+<com.androidbegin.jsonparsetutorial.Coustxt
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="counterpopulation"
+        android:textSize="20dp"
+        android:layout_margin="15dp" 
+        android:layout_gravity="right"/>
+
+<com.androidbegin.jsonparsetutorial.Coustxt
+    android:id="@+id/comment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView" />
+
+  <ListView
+           android:id="@+id/comview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            >
+            
+      </ListView>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+   <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp" 
+        android:layout_toLeftOf="@+id/button1" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/comsub"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+      
+        />
+       <!--   android:background="@drawable/cmtbtn"  -->
+        
+      
+
+</RelativeLayout>
+
+    </LinearLayout>
+    
+    
+    </ScrollView>
+
+   
+</RelativeLayout>
